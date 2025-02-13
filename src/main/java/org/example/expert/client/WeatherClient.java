@@ -59,4 +59,6 @@ public class WeatherClient {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM-dd");
         return LocalDate.now().format(formatter);
     }
+
+
 }
