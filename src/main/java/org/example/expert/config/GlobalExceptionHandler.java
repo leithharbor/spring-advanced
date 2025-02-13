@@ -39,6 +39,10 @@ public class GlobalExceptionHandler {
         errorResponse.put("message", message);
 
         return new ResponseEntity<>(errorResponse, status);
+
+
+
+
     }
 }
 
